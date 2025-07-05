@@ -89,7 +89,7 @@ public class ButtonStyler : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         }
         else
         {
-            targetImage.gameObject.SetActive(true);
+            //targetImage.gameObject.SetActive(true);
         }
 
         // (Optional) Also reset its color if needed
