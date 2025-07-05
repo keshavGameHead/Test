@@ -85,7 +85,7 @@ public class ButtonStyler : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         // Always ensure targetImage is active at startup
         if (targetImage != null && targetImage.gameObject.activeSelf == false)
         {
-            targetImage.gameObject.SetActive(false);
+           // targetImage.gameObject.SetActive(false);
         }
         else
         {
